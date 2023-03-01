@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Text To Speech in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="voice.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+    <style> p{
+        color: Pink; 
+        font-family: "Courier";
+        font-size: 20px;
+        margin: 10px 0 0 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 30em;
+        animation: type 4s steps(60, end); 
+      }
+      
+      @keyframes type{ 
+        from { width: 0; } 
+      } 
+    </style>
+    <div class="wrapper">
+        <header>Text To Speech</header>
+        <form action="#">
+            <div class="row">
+                <label>Enter Text</label>
+                <textarea style="color: Pink; 
+                font-size: 15px;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 21em;
+                animation: type 4s steps(60, end); "> Hi all today we will focus on Web Design </textarea>
+            </div>
+            <div class="row">
+                <label>Select Voice</label>
+                <div class="outer">
+                    <select></select>
+                </div>
+            </div>
+            <button>Convert To Speech</button>
+        </form>
+    </div>
+
+    <script src="voice.js"></script>
+
+</body>
+
+</html>
